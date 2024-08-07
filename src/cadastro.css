@@ -1,0 +1,51 @@
+﻿button {
+    width:100%
+}
+
+label {
+    display: inline-block;
+    margin: 5px 0 0;
+}
+
+.left {
+    margin-right:30px;
+}
+
+.rigth {
+    margin-top: 15px
+}
+
+.input-field { 
+    width: 280px
+}
+
+.row {
+    display: block;
+    margin: 10px
+}
+
+
+.box {
+    width:300px
+}
+
+/*desktop*/
+@media only screen and (min-width: 768px) {
+    .row {
+        display:flex;
+        margin: 18px 0
+    }
+
+    .rigth {
+        margin: 0
+    }
+
+    .box {
+        width: 720px
+    }
+
+    .input-field {
+        width: 345px
+    }
+
+}
